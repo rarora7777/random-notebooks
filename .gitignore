@@ -1,0 +1,9 @@
+.DS_Store
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.gif
+*.npz
+boxrr-23/*
+.vscode/*
