@@ -49,7 +49,7 @@ def histogram(
 
     if not isinstance(num_bins, int) or num_bins < 1:
         raise ValueError(f"num_bins must be a positive integer: given {num_bins}")
-    
+        
     step = (high - low) / num_bins
     bin_edges = [low + i * step for i in range(num_bins + 1)]
     bin_edges[-1] = high
