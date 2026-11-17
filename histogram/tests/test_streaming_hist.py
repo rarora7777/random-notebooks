@@ -61,7 +61,7 @@ class StreamingHistogramTests(unittest.TestCase):
         self.assert_stream_matches_numpy([0, 0, 1, 2], [0, 1, 2, 3], 3)
 
     def test_nonfinite_evicts_oldest_sample(self):
-            self.assert_stream_matches_numpy([0, 0, 1, float('nan')], [0, 1, 2, 3], 3)
+        self.assert_stream_matches_numpy([0, 0, 1, float('nan')], [0, 1, 2, 3], 3)
 
     def test_multiple_wraps(self):
         self.assert_stream_matches_numpy([0, 1, 2, 3, 2, 1, 0, 0, 3, 1], [0, 1, 2, 3], 3)

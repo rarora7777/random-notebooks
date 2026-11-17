@@ -93,3 +93,4 @@ class StreamingHistogram:
             np.ndarray: histogram as a numpy array of type int
         """
         return self._hist.copy()
+
