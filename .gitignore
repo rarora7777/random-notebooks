@@ -7,3 +7,4 @@
 *.npz
 boxrr-23/*
 .vscode/*
+**/__pycache__/**/*
