@@ -7,5 +7,5 @@
 *.npz
 boxrr-23/*
 .vscode/*
-**/__pycache__/**/*
+__pycache__/
 *.py[cod]
